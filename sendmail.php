@@ -1,8 +1,8 @@
 <?php
-$name       = $_POST['name']; 
-$email       = $_POST['email']; 
+$name       = "Chaitanya"; 
+$email       = "girichaitanya11@gmail.com"; 
 $subject    = "You got a message from your portfolio"; 
-$message    = $_POST['message']; 
+$message    = "Laal Salam!"; 
 $to   		= 'girichaitanya11@gmail.com';
  $mailBody="Name: $name\n Email: $email\n\n$message"; 
 
