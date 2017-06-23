@@ -1,0 +1,245 @@
+body{
+  background-color:#4FC3F7;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.wrapper{
+}
+a,a:hover{
+  text-decoration:none;
+  color:#283747;
+}
+hr{
+  background-color:#283747!important;
+  width:70%;
+}
+.overlay-switch{
+  margin-top:20px;
+  float:right;
+  z-index: 10;
+}
+.bar1,.bar2,.bar3{
+  z-index: -1;
+  width:40px;
+  height:6px;
+  border-radius:3px;
+  background-color:#283747;
+  margin:6px;
+  transition: 0.5s ease;
+}
+.change .bar1 {
+    transform: rotate(45deg) translate(5px, 12.5px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    transform: rotate(-45deg) translate(5px, -12.5px) ;
+}
+.contact a{
+  color:#4FC3F7;
+}
+.typed-text{
+  z-index: -1;
+  font-family: 'Neucha', cursive;
+  color:#283747;
+  font-size:4em;
+  margin-top:3cm;
+}
+.navscrn{
+  margin-top:15%;
+  font-family: 'Neucha', cursive;
+  font-size:3em;
+  color:#5499C7 ;
+}
+.overlay1{
+    margin-right:-30px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -100;
+    right:0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    transition: 0.5s ease;
+    display: block;
+    overflow-y:auto;
+}
+.km{
+  font-family: 'Neucha', cursive;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:50px;
+  padding-right:50px;
+  border:none;
+  color:#283747;
+  font-size:35px!important;
+  backgroung-color:#D0D3D4;
+  transition: 0.5s ease;
+  display:none;
+  margin:auto;
+}
+.heade{
+  padding-top:20px;
+}
+.heade:after {
+content: '';
+display: block;
+height: 3px;
+margin:auto;
+width:0;
+background: transparent;
+transition: all .3s ease;
+}
+.heade:hover,.heade:focus,.heade:active{
+  transform:scale(1.1);
+  transition: all .3s ease;
+  color:#5499C7 ;
+}
+.heade:hover:after,.heade:focus:after {
+width:65%;
+background:white;
+}
+.contact{
+  margin-top:30%;
+  font-size:2em;
+  color:#5499C7;
+}
+.fa-linkedin-square:hover,.fa-github-square:hover,.fa-facebook-square:hover,.fa-twitter-square:hover{
+  color:white;
+}
+.theWho{
+  font-family: 'Pompiere', cursive;
+  font-size:35px;
+  display:none;
+}
+.head{
+  font-family: 'Neucha', cursive;
+  font-size:60px;
+}
+.image{ 
+  height:100%;
+  width:100%;
+}
+.theWhat{
+  font-family: 'Pompiere', cursive;
+  font-size:30px;
+  display:none;
+}
+.theWhat img{
+  height:45%;
+  width:60%;
+  border:5px solid #283747;
+  border-radius:20px;
+}
+.thePoke{
+   font-family: 'Neucha', cursive;
+  font-size:50px;
+  display:none;
+}
+#contact-form {
+  color: #283747;
+  background-color: #4FC3F7;
+  text-align: center;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:1%;
+}
+
+label {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+textarea,
+input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  background: none;b
+  font-weight: 700;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  max-width: 90%;
+  padding: 1rem;
+  border: 2px dashed rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  cursor: text;
+}
+
+textarea {
+  text-align: left;
+  resize: none;
+  width: 90%;
+  border-color: rgba(255, 255, 255, 0)
+}
+
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px dashed #283747;
+}
+input:required,
+textarea:required {
+  border-bottom: 2px dashed #283747;
+}
+
+input:focus {
+  border-bottom: 2px dashed #283747;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+input:required:valid {
+  border-bottom: 2px solid #283747;
+}
+
+input:required:invalid {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: #283747;
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-moz-placeholder {
+ 
+  
+  text-align: center;
+  color:#283747;
+  font-style: italic;
+  font-weight: 400;
+}
+
+::-moz-placeholder {
+ 
+  
+  text-align: center;
+  color:#283747;
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  color: #283747;
+  font-style: italic;
+  font-weight: 400;
+}
+.sub{
+  background:none;
+}
+.credits{
+  font-family: 'Neucha', cursive;
+  font-size:20px;
+}
+.credits:hover{
+  color:white !important;
+}
