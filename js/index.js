@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var click = 0;
-  var str = "Hi, I am Chaitanya and I am a Web-Developer/Designer. I reshape, rethink and redefine your digital experiences.";
+  var str = "Hi, I am Chaitanya and I am a Web-Developer / Designer. I reshape, rethink and redefine your digital experiences.";
    $.each(str.split(''), function(i, letter){
             setTimeout(function(){
                 $('.typed-text').append(letter);
